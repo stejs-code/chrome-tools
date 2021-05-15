@@ -1,0 +1,26 @@
+{
+  "name": "Tools",
+  "description": "Super Google Chrome tools!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting", "tabs"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/tools-16.png",
+      "32": "/images/tools-32.png",
+      "48": "/images/tools-48.png",
+      "128": "/images/tools-128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/tools-16.png",
+    "32": "/images/tools-32.png",
+    "48": "/images/tools-48.png",
+    "128": "/images/tools-128.png"
+  },
+  "options_page": "options.html"
+}
